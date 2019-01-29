@@ -1,0 +1,33 @@
+.futher-info-content{
+	width: 555px;
+	margin-left: auto;
+	color: rgba(13, 62, 94, .86);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+.title-2{
+	color: #0d3e60;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 35px;
+}
+
+.checklist{
+	color: #0d3e60;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+
+.checklist li{
+	margin-bottom: 15px;
+
+}
