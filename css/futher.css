@@ -1,3 +1,12 @@
+.futher-info-wrapper{
+	background-image: url("../img/illustrations/illustration.png");
+	background-position: left 100px; 
+	background-repeat: no-repeat;
+	padding-top: 105px;
+	padding-bottom: 60px;
+
+}
+
 .futher-info-content{
 	width: 555px;
 	margin-left: auto;
@@ -13,7 +22,7 @@
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
-	margin-bottom: 35px;
+	margin-bottom: 37px;
 }
 
 .checklist{
@@ -21,13 +30,34 @@
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 36px;
+	margin-top: 15px;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	
+	margin-bottom: 60px;
 }
 
 .checklist li{
 	margin-bottom: 15px;
+	position: relative;
+	padding-left: 47px;
+	
+}
 
+.checklist li:before{
+	content: "";
+	display: block;
+	height: 29px;
+	width: 32px;
+	left: 0;
+	top: 10px;
+	position: absolute;
+	background-image: url("../img/icons/tickbox.svg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	
+}
+
+.futher-info-content p{
+	margin-bottom: 25px;
 }

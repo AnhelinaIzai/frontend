@@ -1,0 +1,58 @@
+
+.about-cards{
+	width: 488px;
+	margin-left: 100px;
+	
+}
+
+.about-content{
+	margin-top: 150px;
+	width: 555px;
+	color: #0d3e60;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 36px;
+}
+
+a.about__toggle, .about__toggle{
+
+	width: 165px;
+	height: 46px;
+	border-radius: 20px;
+	background-color: #fff9df;
+	margin-bottom: 107px;
+	margin-right: 20px;
+	
+	color: #2e435e;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 46px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-decoration: none;
+	
+}
+
+.about-toggle-wrapper{
+	display: flex;
+	
+}
+.about__toggle:hover{
+	background-color: #ec6c45;
+	color: #fff;
+}
+
+
+.title-special{
+	color: #eb5238;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 23.99px;
+	margin-bottom: 72px;
+}
+
+.about-content p{
+	margin-bottom: 36px;
+}
+
