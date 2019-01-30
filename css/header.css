@@ -1,10 +1,10 @@
 .header {
-
+	position: fixed;
+    top: 0;
+    left: 0;
 	width: 100%;
 	padding-top: 92px;
-	background-color: red;
 	background-color: #fffef9;
-
 	background-image:
 	    url("../img/illustrations/illustration-header.png"),
         linear-gradient(to top, #ffffff 0%, #fff9df 100%);
@@ -13,6 +13,8 @@
 	background-size: 100% auto;
 	padding-bottom: 390px;
 	position: relative;
+	margin-left: auto;
+	
 }
 
 .promise_counter{
