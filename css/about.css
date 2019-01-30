@@ -1,7 +1,42 @@
+.about-wripper{
+	position: relative;
+	overflow: hidden; 
+	
+}
 
+.about-wripper::after{
+	right: 0;
+	top: 0;
+	width: 612px;
+	height: 518px;
+	position: absolute;
+	display: block;
+	content: "";
+	background-image: url("../img/illustrations/shape-3.svg");
+	background-repeat: no-repeat;
+	background-position: right-top;	
+	z-index: -11;
+	right: -170px;
+	margin-top: 179px;
+	margin-left: 700px;
+}
 .about-cards{
 	width: 488px;
 	margin-left: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.space-between{
+	margin-bottom: 66px;
+}
+.about-cards-1colum{
+
+
+}
+
+.about-cards-2colum{
+	padding-top: 150px;
 	
 }
 
